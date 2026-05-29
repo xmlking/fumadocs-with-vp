@@ -69,3 +69,22 @@ Error: Failed to load url source.config.ts (resolved id: source.config.ts). Does
 ```
 
 > workaround is in the branch `fix/build`
+
+## Workaround
+
+after changes to `apps/docs/source.config.ts` and `apps/docs/vite.config.ts` , both ways of build works.
+
+from root
+
+```shell
+vp build apps/docs
+vp preview apps/docs
+```
+
+from `apps/docs`
+
+```shell
+cd apps/docs
+vp build
+vp preview
+```

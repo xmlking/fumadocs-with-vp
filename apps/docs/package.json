@@ -12,12 +12,13 @@
     "postinstall": "fumadocs-mdx"
   },
   "dependencies": {
+    "@base-ui/react": "^1.5.0",
     "@tanstack/react-router": "1.170.8",
     "@tanstack/react-router-devtools": "1.167.0",
     "@tanstack/react-start": "1.168.13",
     "fumadocs-core": "16.9.1",
     "fumadocs-mdx": "15.0.9",
-    "fumadocs-ui": "16.9.1",
+    "fumadocs-ui": "npm:@fumadocs/base-ui@16.9.1",
     "lucide-react": "^1.16.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
@@ -32,7 +33,6 @@
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.2",
     "nitro": "3.0.260522-beta",
-    "oxlint": "^1.66.0",
     "tailwindcss": "^4.3.0",
     "typescript": "^6.0.3"
   }
